@@ -9,6 +9,18 @@ Multi-version Azul Zulu JDK images based on Debian Bookworm, optimized for Ptero
 - Java 11
 - Java 8
 
+## Available Images
+
+Copy the image path below to your Pterodactyl Docker Image configuration:
+
+| Version | Image Path |
+| :--- | :--- |
+| **Java 25** | `ghcr.io/arqonarateam/arqonara-java:java_25` |
+| **Java 21** | `ghcr.io/arqonarateam/arqonara-java:java_21` |
+| **Java 17** | `ghcr.io/arqonarateam/arqonara-java:java_17` |
+| **Java 11** | `ghcr.io/arqonarateam/arqonara-java:java_11` |
+| **Java 8** | `ghcr.io/arqonarateam/arqonara-java:java_8` |
+
 ## Customization
 
 You can customize the terminal output prefix using environment variables in your Pterodactyl startup settings or Docker environment.
