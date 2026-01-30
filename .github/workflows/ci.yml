@@ -50,6 +50,7 @@ jobs:
           platforms: linux/amd64
           tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:java_${{ matrix.java }}
           no-cache: true
+          provenance: false
 
   cleanup:
     needs: build
